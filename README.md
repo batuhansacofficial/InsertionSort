@@ -14,7 +14,7 @@ Verilen `[22, 27, 16, 2, 18, 6]` dizisinde, aşağıdaki görevler yerine getiri
 ### Insertion Sort Adımları
 Insertion Sort algoritmasını kullanarak `[22, 27, 16, 2, 18, 6]` dizisini adım adım sıralıyoruz:
 
-1. **İlk dizi**: `[22, 27, 16, 2, 18, 6]`
+1. **Dizinin ilk hali**: `[22, 27, 16, 2, 18, 6]`
 2. `27` ile `22`'yi karşılaştıralım. Değişiklik yapmayız: `[22, 27, 16, 2, 18, 6]`
 3. `16` sayısını `27` ve `22` ile karşılaştıralım. `16` sayısını doğru konuma yerleştirelim: `[16, 22, 27, 2, 18, 6]`
 4. `2` sayısını `27`, `22` ve `16` ile karşılaştıralım. `2` sayısını doğru konuma yerleştirelim: `[2, 16, 22, 27, 18, 6]`
@@ -62,22 +62,22 @@ Verilen `[7, 3, 5, 8, 2, 9, 4, 15, 6]` dizisi için Selection Sort algoritmasın
 ### Selection Sort Adımları
 Selection Sort algoritmasını kullanarak `[7, 3, 5, 8, 2, 9, 4, 15, 6]` dizisini adım adım sıralıyoruz:
 
-1. **1. Adım**: Dizideki en küçük elemanı bulalım ve ilk elemanla değiştirelim:
+**Birinci Adım**: Dizideki en küçük elemanı bulalım ve ilk elemanla değiştirelim:
    - En küçük eleman: `2`
    - `2` ile `7` sayılarının yerlerini değiştirelim.
    - **1. Adım** uygulandıktan sonra dizinin son hali: `[2, 3, 5, 8, 7, 9, 4, 15, 6]`
 
-2. **2. Adım**: Dizinin kalan sıralanmamış bölümündeki en küçük elemanı bulalım (indeks 1'den başlayarak) ve ikinci elemanla değiştirelim:
+**İkinci Adım**: Dizinin kalan sıralanmamış bölümündeki en küçük elemanı bulalım (indeks 1'den başlayarak) ve ikinci elemanla değiştirelim:
    - En küçük eleman: `3`
    - Değişikliğe gerek yok (zaten doğru konumda)
    - **2. Adım** uygulandıktan sonra dizinin son hali: `[2, 3, 5, 8, 7, 9, 4, 15, 6]`
 
-3. **3. Adım**: Dizinin kalan sıralanmamış bölümündeki en küçük elemanı bulalım (indeks 2'den başlayarak) ve üçüncü elemanla değiştirelim:
+**Üçüncü Adım**: Dizinin kalan sıralanmamış bölümündeki en küçük elemanı bulalım (indeks 2'den başlayarak) ve üçüncü elemanla değiştirelim:
    - En küçük eleman: `4`
    - `4` ile `5` sayılarının yerlerini değiştirelim.
    - **3. Adım** uygulandıktan sonra dizinin son hali: `[2, 3, 4, 8, 7, 9, 5, 15, 6]`
 
-4. **4. Adım**: Dizinin kalan sıralanmamış bölümündeki en küçük elemanı bulalım (indeks 3'ten başlayarak) ve dördüncü elemanla değiştirelim:
+**Dördüncü Adım**: Dizinin kalan sıralanmamış bölümündeki en küçük elemanı bulalım (indeks 3'ten başlayarak) ve dördüncü elemanla değiştirelim:
    - En küçük eleman: `5`
    - `5` ile `8` sayılarının yerlerini değiştirelim.
    - **4. Adım** uygulandıktan sonra dizinin son hali: `[2, 3, 4, 5, 7, 9, 8, 15, 6]`
@@ -85,7 +85,10 @@ Selection Sort algoritmasını kullanarak `[7, 3, 5, 8, 2, 9, 4, 15, 6]` dizisin
 ---
 
 ## Son Kısım
-1. **1. Adım**: `[2, 3, 5, 8, 7, 9, 4, 15, 6]`
-2. **2. Adım**: `[2, 3, 5, 8, 7, 9, 4, 15, 6]`
-3. **3. Adım**: `[2, 3, 4, 8, 7, 9, 5, 15, 6]`
-4. **4. Adım**: `[2, 3, 4, 5, 7, 9, 8, 15, 6]`
+**Birinci Adım**: `[2, 3, 5, 8, 7, 9, 4, 15, 6]`
+
+**İkinci Adım**: `[2, 3, 5, 8, 7, 9, 4, 15, 6]`
+
+**Üçüncü Adım**: `[2, 3, 4, 8, 7, 9, 5, 15, 6]`
+
+**Dördüncü Adım**: `[2, 3, 4, 5, 7, 9, 8, 15, 6]`
