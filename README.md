@@ -46,7 +46,7 @@ Başta verilen dizinin sıralandıktan sonraki durumu şöyledir: `[2, 6, 16, 18
 ## Son Kısım
 1. **Adımlar**: Diziyi sıralamak için yukarıdaki adımlara bakın.
 2. **Big-O Gösterimi**: Average case için \(O(n^2)\).
-3. **Time Complexity Durumu**: The search for `18` corresponds to the **average case**.
+3. **Time Complexity Durumu**: `18` sayısını aramanın karşılığı **average case**.
 
 ---
 
